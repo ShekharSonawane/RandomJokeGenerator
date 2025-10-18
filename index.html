@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Random Joke Generator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Random Joke Generator</h1>
+
+    <div id="joke-card" class="card">
+      <div id="joke-text" class="joke">Click "New Joke" to get started!</div>
+      <div id="joke-meta" class="meta"></div>
+    </div>
+
+    <div class="controls">
+      <button id="new-joke" class="btn primary">New Joke</button>
+      <button id="share-joke" class="btn">Share</button>
+    </div>
+
+    <div id="status" class="status" aria-live="polite"></div>
+    <footer class="footer">
+      <small>Jokes from <a href="https://github.com/ShekharSonawane/RandomJokeGenerator" target="_blank" rel="noopener">github.com/ShekharSonawane</a></small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
